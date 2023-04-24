@@ -1,0 +1,39 @@
+Fontes usadas
+-Destaques Bebas Neue, cursive
+-h1 e h2 idroid
+- texto padrao arial
+==================
+main
+min-width 400px
+max-width 800px
+===================
+ul{
+    list-style-type: '\2714\0020\0020`; //modifica o marcador da lista
+    columns: 2; //colocar em 2 colunas
+    list-style-position: inside; //coloca os marcadores dentro da caixa onde esta a lista
+}
+
+==============
+Tornando o video mais 'flexivel', responsivo
+
+#position é por padrão definido como static, porem precisamos usa-lo como relative para ele se manter adaptavel ao tamanho da tela.
+E seu uso no iframe como absolute dentro da div é para que ele tenha como referencia o tamanho da div.
+
+div.video{
+    position: relative;
+    background-color: var(--cor4);
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgb(140, 139, 139);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header{
+            background-color: whitesmoke;
+            padding: 10px;
+
+        }
+        header > h1{
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(163, 161, 161);
+            padding: 3px;
+            box-shadow: 2px 4px  rgba(0, 0, 0, 0.41);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: whitesmoke;
+            margin-right: 40px;
+            padding: 15px;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: blueviolet;
+        }
+
+        main{
+            border-radius: 20px; /*pode usar px ou porcentagem*/
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+        }
+        section{
+            background-color: whitesmoke;
+            margin: 10px;
+            text-align: justify;
+        }
+        aside{
+            background-color: rgb(188, 186, 186);
+            text-align: center;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 3px;
+            text-align: center;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MEU SITE</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Artigo 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quaerat provident maiores, suscipit cupiditate quod consequatur quae. Quasi, eius dolores inventore repellat doloribus ea earum! Veniam porro facere debitis voluptas.</p>
+        </section>
+        <section>
+            <article>
+                <h2>Artigo 2</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ad, excepturi magnam voluptate deserunt doloribus maiores iusto quibusdam saepe hic cumque, commodi asperiores? Facere quidem dolorem dolores reprehenderit quisquam accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, quos? Asperiores dolores vitae, libero nemo provident saepe eius perspiciatis natus error illo rerum id, quo nisi esse magnam, voluptates nihil!</p>
+                <aside>
+                    <p>Autor do artigo</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por ...</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color: rgb(192, 184, 200);
+}
+
+/*.imagens{
+    display:inline-block;
+    flex-direction:column;
+    width: 400px;
+    flex: 2 auto;
+    
+}*/
+.frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   /* font-family: 'Times New Roman', Times, serif;
+    font-size: large;*/
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: rgb(87, 87, 164);
+    background-color: rgb(223, 177, 117);
+}
+
+h2{
+    color: darkgoldenrod;
+}
+
+p{
+    text-align: justify;
+}

@@ -1,0 +1,140 @@
+
+:root{
+    --cor0:#CCD2D9;
+    --cor1:#B6C7D9;
+    --cor2:#3F3E73;
+    --cor3:#505A5B;
+    
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header{
+    background-color: var(--cor1);
+    padding: 10px 0px 10px 0px;
+}
+
+header h1{
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 1px 0px black;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.755);
+    /*text-align: center;*/
+    
+}
+
+
+#capa-livro{
+    
+    max-width: 260px;
+    
+}
+
+#capa-livro img{
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 5px 5px 10px #ccc;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    
+}
+
+#info{
+    
+    margin-left: 30px;
+    max-width: 260px;
+    max-height: 400px;
+    
+}
+
+.botao{
+    appearance: none;
+    padding: 5px;
+    margin-top: 8px;
+    border-radius: 15px;
+    background-color: var(--cor2);
+    color: #fff;
+    
+}
+
+main{
+   
+    background-color: #9191e9;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #6bb3f2d6;
+}
+
+.preview{
+    margin-left: 30px;
+}
+
+progress{
+    appearance: none;
+    
+}
+
+progress::-webkit-progress-value {
+    background: #3F3E73;
+    
+}
+
+progress::-webkit-progress-bar{
+    background-color: #fff;
+    
+}
+
+/*
+main{
+    display: flexbox;
+    background-color: #9191e9;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+    /*box-shadow: 5px 5px 10px #6bb3f2d6;
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*dar zoom na imagem
+#capa-livro:hover{
+    scale: 1.1;
+}
+
+#info{
+    display: inline;
+    
+}
+
+h2{
+    color: #0b7a75;
+}
+
+
+
+.caixa{
+    background-color: #a9a9be;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+}
+*/
+footer{
+    text-align: center;
+    margin-top: 100px;
+    font: 1em verdana;
+}

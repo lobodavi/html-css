@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(175, 200, 206);
+    text-align: center;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h2#redes{
+    text-align:left;
+}
+ul{
+    text-align: justify;
+}
