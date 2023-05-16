@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 20px;
+        }
+
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr:nth-child(even){
+            background-color: rgb(228,228,228);
+        }
+
+        div#container{
+            overflow-x: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabela em telas pequenas</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur voluptatibus ipsa voluptatum facilis ad culpa vitae iusto, ut voluptate cumque earum sequi accusantium nam aut eligendi mollitia eius. Sequi, earum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, eum! Dolor amet perspiciatis repellendus veniam culpa corporis quam ipsam magni! Labore nulla saepe, consequuntur accusamus iure delectus molestias veritatis praesentium.</p>
+
+    <div id="container">
+        <table>
+            
+            <caption>Tabela Responsivas</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Produto</th>
+                    <th scope="col">JAN</th>
+                    <th scope="col">FEV</th>
+                    <th scope="col">MAR</th>
+                    <th scope="col">ABR</th>
+                    <th scope="col">MAI</th>
+                    <th scope="col">JUN</th>
+                    <th scope="col">JUL</th>
+                    <th scope="col">AGO</th>
+                    <th scope="col">SET</th>
+                    <th scope="col">OUT</th>
+                    <th scope="col">NOV</th>
+                    <th scope="col">DEZ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PS5</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>12</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>PS4</td>
+                    <td>12</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>1</td>
+                    <td>13</td>
+                    <td>5</td>
+                    <td>43</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>15</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>TV</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>12</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>7</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
