@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média de notas</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 500px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th,td{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .destaque{
+            background-color: rgb(129, 128, 128);
+            color: white;
+        }
+
+        #media{
+            text-align: left;
+            background-color: rgb(129, 128, 128);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+    <thead>
+        <tr>
+            <th rowspan="2" class="destaque" scope="col">Área</th>
+            <th rowspan="2" class="destaque" scope="col">Disciplinas</th>
+            <th colspan="2" class="destaque" scope="colgroup">Notas</th>
+            <th rowspan="2" class="destaque" scope="col">Média</th>
+        </tr>
+        <tr>
+            <th class="destaque" scope="col">Nota 1</th>
+            <th class="destaque" scope="col">Nota 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th rowspan="3" scope="rowgroup">Exatas</th>
+            <td>Matemática</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Fisica</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Quimica</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+       
+        <tr>
+            <th colspan="4" id="media" scope="row">Média de Exatas</th>
+            <td class="destaque">0</td>
+        </tr>
+        <tr>
+            <th rowspan="3" scope="rowgroup">Humanas</th>
+            <td>História</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Filosofia</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <th colspan="4" id="media" scope="row">Média de Humanas</th>
+            <td class="destaque">0</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
